@@ -12,6 +12,7 @@
   "devDependencies": {
     "@repo/typescript-config": "*",
     "@repo/eslint-config": "*",
+    "@repo/types": "*",
     "@types/bun": "latest",
     "eslint": "^9.39.1"
   },
@@ -19,7 +20,12 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@ai-sdk/google": "^3.0.53",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "ai": "^6.0.141",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "tsdown": "^0.21.5"
   }

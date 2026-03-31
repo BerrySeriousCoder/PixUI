@@ -3,7 +3,9 @@
   "compilerOptions": {
     "lib": ["ESNext"],
     "outDir": "./dist",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "declaration": false,
+    "declarationMap": false
   },
   "include": ["."],
   "exclude": ["node_modules"]
